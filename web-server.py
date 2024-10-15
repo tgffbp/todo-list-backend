@@ -1,5 +1,5 @@
 from flask import Flask, request
-from resources import EntryManager, Entry
+from resources import Entry, EntryManager
 
 app = Flask(__name__)
 

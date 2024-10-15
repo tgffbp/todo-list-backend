@@ -1,7 +1,6 @@
 import os
 import json
 from typing import List
-from resources import Entry
 
 def print_with_indent(value, indent=0):
     indentation = '\t' * indent
